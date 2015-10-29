@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>练习——01</title>
+</head>
+<body>
+     <div class="container">
+         <span>请为下面的DIV设置样式:</span>
+         <button  id="settings">点击设置</button>
+         <div id="display"></div>
+     </div>
+     <div id="control">
+         <div class="box">
+             <div class="center">
+               <ul class="table">
+                   <li>
+                       <ul id="box1">
+                           <li><h4>请选择背景色：</h4></li>
+                           <li><input id="red" type="button" value="红"></li>
+                           <li><input id="yellow" type="button" value="黄"></li>
+                           <li><input id="blue" type="button" value="蓝"></li>
+                       </ul>
+                   </li>
+                   <li>
+                       <ul id="box2">
+                           <li><h4 id="h4">请选择宽（px）：</h4></li>
+                           <li><input id="w200" type="button" value="200"></li>
+                           <li><input id="w300" type="button" value="300"></li>
+                           <li><input id="w400" type="button" value="400"></li>
+                       </ul>
+                   </li>
+                   <li>
+                       <ul id="box3">
+                           <li><h4>请选择高（px）：</h4></li>
+                           <li><input id="h200" type="button" value="200"></li>
+                           <li><input id="h300" type="button" value="300"></li>
+                           <li><input id="h400" type="button" value="400"></li>
+                       </ul>
+                   </li>
+                   <li id="box4">
+                       <ul>
+                           <li>
+                               <input id="reset" type="button" value="重置">
+                           </li>
+                           <li>
+                               <input id="confirm" type="button" value="确定">
+                           </li>
+                       </ul>
+                   </li>
+               </ul>
+             </div>
+         </div>
+     </div>
+<script src="app.js"></script>
+</body>
+</html>
